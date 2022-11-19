@@ -1514,6 +1514,7 @@ import org.bytedeco.openblas.presets.openblas;
                 "torch/csrc/api/include/torch/imethod.h",
                 "torch/csrc/api/include/torch/types.h",
                 "torch/csrc/api/include/torch/cuda.h",
+                "torch/csrc/api/include/torch/nn/init.h",
                 "torch/csrc/api/include/torch/ordered_dict.h",
 //                "torch/csrc/api/include/torch/detail/TensorDataContainer.h",
                 "torch/csrc/utils/disallow_copy.h",
