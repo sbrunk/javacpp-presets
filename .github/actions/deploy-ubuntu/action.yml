@@ -304,6 +304,15 @@ runs:
         fi
         df -h
 
+    - name: Upload artifacts
+      shell: bash
+      steps:
+        - run: mkdir staging && cp */target/*.jar staging
+        - uses: actions/upload-artifact@v3
+          with:
+            name: Package
+            path: staging
+
     - name: Clean up
       shell: bash
       run: |

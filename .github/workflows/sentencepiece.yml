@@ -4,6 +4,7 @@ on:
     paths:
       - sentencepiece/**
       - .github/workflows/sentencepiece.yml
+      - .github/actions/**
   pull_request:
     paths:
       - sentencepiece/**
